@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&family=Josefin+Sans:ital,wght@1,300&family=MuseoModerno&family=Rubik:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:var(--regular-font);
+}
+:root{
+    --trans:all .5s linear;
+    --border-radius:1rem;
+    --brand-font:'Grandstander', cursive;
+    --nav-font: 'MuseoModerno', cursive;
+    --heading-font: 'Rubik', sans-serif;
+    --regular-font: 'Josefin Sans', sans-serif;
+    --bg-color:rgba(0,0,0,.2);
+    --font-color:rgba(1,1,1,.2);
+}
+.home_row{
+    height:86vh;
+    align-items: center;
+}
+.navbar-brand{
+    font-family:var(--brand-font);
+    font-size:2rem !important;
+}
+.nav-link{
+    font-family:var(--nav-font);
+    border-radius:1rem;
+}
+.nav-link:hover{
+    background-color:var(--font-color);
+    color:var(--bg-color);
+
+}
+.blog_section{
+    border-radius:2rem .4rem;
+    transition:var(--trans);
+}
+.blog_section:hover{
+    border-radius:.4rem 2rem;
+    cursor:pointer;
+
+}
+.blog_date{
+    font-size:1rem !important;
+
+}
+.blog_heading{
+    font-family:var(--brand-font);
+}
+.blog_summry{
+    font-family:var(--regular-font);
+}
+.link_icon{
+    width:1.5rem;
+    height:1.5rem;
+}
